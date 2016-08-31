@@ -1,28 +1,14 @@
-== README
+This is a movie rating and review web app built using Rails 4.2.0 with searchkick and elasticSearch for smart search, image uploading using Paperclip, users using the Devise gem, raty.js for dinamically scoring movies and bootstrap-sass for styling.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Getting started
 
-Things you may want to cover:
+To get started with the app, clone the repo and then install the needed gems:
 
-* Ruby version
+$ bundle install –without production Next, migrate the database:
 
-* System dependencies
+$ rails db:migrate Finally, run the test suite to verify that everything is working correctly:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+$ rails server
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+movie rating and review application with users, movies, review (on a 1-5 rating system) and the ability to search.
